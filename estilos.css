@@ -28,18 +28,21 @@ img{
     flex-direction: row;
 }
 
-a{
+ a {
+    margin-top: 4em;
     font-family: 'Great Vibes', cursive;
     color: rgb(174, 254, 255);
     text-decoration: none;
     font-size: xxx-large;
     }
 
+
 .git{
     margin-right: 2em;
 }
 
 .saludo{
+    margin-top: 1em;
     font-family: 'Dancing Script', cursive;
     color: rgb(53, 133, 139);
     font-size: 2em;
