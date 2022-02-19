@@ -25,18 +25,11 @@ img{
     display: block;
     height: 90%;
     flex-direction: row;
-
-}
-
-.nombre{
-    font-size: 3em;
-
 }
 
 a{
     font-family: 'Great Vibes', cursive;
     color: rgb(174, 254, 255);
-
     text-decoration: none;
     font-size: xxx-large;
     }
@@ -68,4 +61,9 @@ a{
         text-align: center;
         flex-direction: column;
     }
+}
+
+hr{
+    width: 80%;
+    margin-top: 17em;
 }
