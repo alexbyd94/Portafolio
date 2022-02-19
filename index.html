@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Alex</title>
+    <link href="reset.css" rel="stylesheet" type="text/css">
     <link href="estilos.css" rel="stylesheet" type="text/css">
+    <link href="movil.css" rel="stylesheet" type="text/css" media="screen and (max-with: 600px)">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,23 +13,26 @@
 
 </head>
 <body>
+ <div class="container">
 
-    <div class="container">
-
-        <img src="20180107_162835.jpg">
+        <img alt="foto de alex" src="20180107_162835.jpg">
             <div class="hola">
                 <p class="saludo hola">hello my name is Alex Daniel Baena Yepez, i am a full stack developer :) </p>
             </div>
 
-        <a href="https://github.com/alexbyd94" class="git" target="_blank">GitHub</a>
+        
+        <a href="https://github.com/alexbyd94" id="a" class="git" target="_blank"
+           onMouseEnter="mouseEnter()" onMouseLeave="mouseLeave()"
+        >GitHub</a>
 
-        <a href="https://www.linkedin.com/in/alex-byda-477a31206/" target="_blank">Linkedin</a>
+        <a href="https://www.linkedin.com/in/alex-byda-477a31206/" id="link" target="_blank"
+           onMouseEnter="mouseEnter()" onMouseLeave="mouseLeave()"
+        >Linkedin</a>
     </div>
-
-    <footer>
+<footer>
         <hr>
     </footer>
 
-
+<script src="main.js"></script>
 </body>
 </html>
