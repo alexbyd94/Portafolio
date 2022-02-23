@@ -9,8 +9,8 @@
 */
 
 body{
-    margin: 0 0 0 0;
     background-color: rgb(0,0,0);
+    margin: 0 0 0 0;
     max-height: 100%;
     text-align: center;
 }
@@ -24,9 +24,11 @@ img{
 .container{
     align-content: center;
     display: block;
-    height: 90%;
+    height: 600px;
     flex-direction: row;
 }
+
+
 
  .a {
     margin-top: 4em;
@@ -35,6 +37,10 @@ img{
     text-decoration: none;
     font-size: xxx-large;
     }
+
+.clear {
+    clear: both;
+}
 
  .icon{
      float: left;
@@ -48,8 +54,37 @@ img{
     margin-top: 1em;
     font-family: 'Dancing Script', cursive;
     color: rgb(53, 133, 139);
-    font-size: 2em;
+    font-size: 1.5em;
+    padding-right: 7px;
     }
+.hola{
+    display: inline-flex;
+}
+/*.nombre{
+    background-color: lightslategray;
+    border-radius: 20px;
+    border-style: solid ;
+}
+*/
+.portafolio{
+    display: inline-flex;
+}
+.tar{
+    padding-block-start: .9em;
+    align-items: stretch;
+    justify-content: space-evenly;
+    display: flex;
+    font-size: x-large;
+    font-family: 'Great Vibes', cursive;
+    color: rgb(53, 133, 139);
+}
+
+.tarjeta{
+    border-style: groove;
+    border-radius: 7px;
+    width: 200px;
+    height: fit-content;
+}
 
 @media only screen and (max-width: 600px) {
     .nombre {
@@ -72,5 +107,9 @@ img{
 
 hr{
     width: 80%;
-    margin-top: 17em;
+    margin-top: 1em;
+}
+
+footer {
+    display: flex;
 }
